@@ -50,8 +50,9 @@ public class MainCourse extends MenuItem
 	/**
 	 * The get method returns the value of the variable introductionDescription 
 	 * 
-	 * The introductionDescription, is for the customer, so they are able to read
-	 * the description for the mainCourse.  
+	 * The introductionDescription, is not the same as description in the acstract class MenuItem
+	 * description is a short overview of the mainCourse, but when the customer choose an mainCourse
+	 * a frame/window will appear showing another description which is this introductionDescription.  
 	 * 
 	 * @return introductionDescription
 	 */
